@@ -1,7 +1,7 @@
 title: Guide - Install NT;RE (Client)
 
 # Guide - Install NT;RE (Client)
-Last Updated: 2026-02-21
+Last Updated: 2026-04-14
 
 ## 1. Prerequisites
 
@@ -72,6 +72,11 @@ standard setups. However if you have issues...
 
 ## 4. Troubleshooting
 
+### The game does not appear in Steam library
+
+Try restarting Steam if you haven't already.
+Also double check the `Steam/steamapps/sourcemods/neo` path for correctness.
+
 ### 4a. Cannot join VAC servers
 
 The client loads up in insecure mode by default, which will get blocked by
@@ -102,7 +107,7 @@ then click "Run". This will popup everytime NT;RE is started through Steam.
 
 #### Windows
 
-[Double check the contents](#installing-ntre) of your installation folder, you probably did not extract folders/files properly or are missing some all together. Make sure you have downloaded the necessary libraries and resource files from the "Assets" section of the latest release. Down below is an image of how your installation folder should look like:
+[Double check the contents](#2%2E-installing-ntre) of your installation folder, you probably did not extract folders/files properly or are missing some all together. Make sure you have downloaded the necessary libraries and resource files from the "Assets" section of the latest release. Down below is an image of how your installation folder should look like:
 
 ![Picture of the installation folder](folderstructure.png)
 
